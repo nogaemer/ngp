@@ -1,0 +1,9 @@
+name: NGP
+version: '${project.version}'
+main: de.nogaemer.ngp.Main
+api-version: 1.19
+authors: [ NoGaemer ]
+commands:
+  settings: {}
+  test: {}
+  invsee: {}

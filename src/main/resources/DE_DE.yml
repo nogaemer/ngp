@@ -1,0 +1,133 @@
+command:
+  notPlayer: "§c You have to be a player to execute this command"
+message:
+  world-reset:
+    "§l§cWelt zurückgesetzt! \n §r§6Der Server §cstartet neu \n  \n §aLoggen Sie sich in ca. 30 Sekunden wieder ein. \n \n"
+  timer:
+    paused: "§l§cDer Timer ist pausiert"
+items:
+  null: "§c§lNicht verfügbar"
+  challenges:
+    randomizer:
+      mobhead:
+        lore:
+          "§7ursprünglich§l"
+menus:
+  items:
+    back:
+      name: "§9§l Zurück"
+      lore:
+        - ""
+        - "§7- §6Klicken §7um dieses"
+        - "§7  Menü zu verlassen"
+    activated:
+      name: "§a§l Aktiviert"
+      lore:
+        - ""
+        - "§7- §6Klicken §7zum"
+        - "§c§l  deaktivieren"
+    deactivated:
+      name: "§c§l Deaktiviert"
+      lore:
+        - ""
+        - "§7- §6Klicken §7zum"
+        - "§a§l  aktivieren"
+  menu:
+    headline: "§7» §l§9Menü"
+    items:
+      lang:
+        name: "§9§l Sprache auswählen"
+        lore:
+          - ""
+          - "§7- §6Klicken §7um deine"
+          - "§7  Sprache auszuwählen"
+      timer:
+        name: "§9§l Timer"
+        lore:
+          - ""
+          - "§7- §6Klicken §7um den"
+          - "§7  Timer zu ändern"
+      challenges:
+        name: "§9§l Challenges"
+        lore:
+          - ""
+          - "§7- §6Klicken §7um die"
+          - "§7  Challenges zu überarbeiten"
+      reset:
+        name: "§c§l Welt löschen"
+        lore:
+          - ""
+          - "§7- §6Klicken §7um die"
+          - "§7  aktuelle Welt zu §c§llöschen"
+      unknown:
+        name: "§c§l Unbekannt"
+        lore:
+          - ""
+  timer:
+    headline: "§7» §l§9Timer"
+    items:
+      start:
+        name: "§9§l Timer starten"
+        lore:
+          - ""
+          - "§7- §6Klicken §7um den Timer"
+          - "§7  zu starten"
+      stop:
+        name: "§9§l Timer stopen"
+        lore:
+          - ""
+          - "§7- §6Klicken §7um den Timer"
+          - "§7  zu stopen"
+      reset:
+        name: "§9§l Timer zurücksetsen"
+        lore:
+          - ""
+          - "§7- §6Klicken §7um den Timer"
+          - "§7  zurückzusetzen"
+      set:
+        name: "§9§l Zeit setzen"
+        lore:
+          - ""
+          - "§7- §6Klicken §7um die Zeit"
+          - "§7  zu ändern"
+    anvil:
+      title: "§7» §l§9Bitte Zeit eingeben"
+      placeholder: "§9Zeit hier eingeben"
+      error: "§c[dd:hh:mm:ss | ss]"
+  challenge:
+    overview:
+      headline: "§7» §l§9Challenges | Seite "
+      items:
+        force_battle: "§9§l Force Battle"
+        hbr: "§9§l Hotbar randomizer"
+        randomizer: "§9§l Randomizer"
+    invs:
+      force_battle:
+        headline: "§7» §l§9Force Battle Einstellungen"
+        endtime: " §5§l Aktuelle Zeit: "
+      hbr:
+        headline: "§7» §l§9 Hotbar Randomizer Einstellungen"
+      randomizer:
+        headline: "§7» §l§9 Randomizer Battle Einstellungen"
+        reset:
+          name: "§c§l Reset"
+          lore:
+            - ""
+            - "§7- §6Klicke §7um den"
+            - "§7 Zufallsgenerator §c§lzurückzusetzen"
+  language:
+    select:
+      headline: "§7» §l§9Wähle deine Sprache aus"
+      items:
+        german:
+          name: "§9§l Deutsch"
+          lore:
+            - ""
+            - "§7- §6Klicken §7um"
+            - "§7  Deutsch auszuwählen"
+        english:
+          name: "§9§l Englisch"
+          lore:
+            - ""
+            - "§7- §6Klicken §7um"
+            - "§7  Englisch auszuwählen"

@@ -1,0 +1,133 @@
+command:
+  notPlayer: "§c You have to be a player to execute this command"
+message:
+  world-reset:
+    "§l§cWorld reset!  \n §r§6The server §crestarts \n  \n §aLog in again in about 30 seconds.  \n \n"
+  timer:
+    paused: "§l§cTimer is paused"
+items:
+  null: "§c§lNot available"
+  challenges:
+    randomizer:
+      mobhead:
+        lore:
+          "§7original§l"
+menus:
+  items:
+    back:
+      name: "§9§l Back"
+      lore:
+        - ""
+        - "§7- §6Click §7to exit"
+        - "§7  this menu"
+    activated:
+      name: "§a§l Enabled"
+      lore:
+        - ""
+        - "§7- §6Click §7to"
+        - "§c§l  disable"
+    deactivated:
+      name: "§c§l Disabled"
+      lore:
+        - ""
+        - "§7- §6Click §7to"
+        - "§a§l  enable"
+  menu:
+    headline: "§7» §l§9Meue"
+    items:
+      lang:
+        name: "§9§l Select language"
+        lore:
+          - ""
+          - "§7- §6Click §7to select"
+          - "§7  your language"
+      timer:
+        name: "§9§l Timer"
+        lore:
+          - ""
+          - "§7- §6Click §7to manage"
+          - "§7  the timer"
+      challenges:
+        name: "§9§l Challenges"
+        lore:
+          - ""
+          - "§7- §6Click §7to manage"
+          - "§7  the challenges"
+      reset:
+        name: "§c§l World reset"
+        lore:
+          - ""
+          - "§7- §6Click §7to §c§lreset"
+          - "§r§7  the World"
+      unknown:
+          name: "§c§l Unknown"
+          lore:
+            - ""
+  timer:
+    headline: "§7» §l§9Timer"
+    items:
+      start:
+        name: "§9§l Start timer"
+        lore:
+          - ""
+          - "§7- §6Click §7to start"
+          - "§7  the timer"
+      stop:
+        name: "§9§l Stop timer"
+        lore:
+          - ""
+          - "§7- §6Click §7to stop"
+          - "§7  the timer"
+      reset:
+        name: "§9§l Reset timer"
+        lore:
+          - ""
+          - "§7- §6Click §7to reset"
+          - "§7  the timer"
+      set:
+        name: "§9§l Set time"
+        lore:
+          - ""
+          - "§7- §6Click §7to set"
+          - "§7  the time"
+    anvil:
+      title: "§7» §l§9Please enter time"
+      placeholder: "§7Enter time here"
+      error: "§c[dd:hh:mm:ss | ss]"
+  challenge:
+    overview:
+      headline: "§7» §l§9Challenges | Page "
+      items:
+        force_battle: "§9§l Force Battle"
+        hbr: "§9§l Hotbar randomizer"
+        randomizer: "§9§l Randomizer"
+    invs:
+      force_battle:
+        headline: "§7» §l§9 Force Battle Settings"
+        endtime: " §5§l Current Time: "
+      hbr:
+        headline: "§7» §l§9 Hotbar Randomizer Settings"
+      randomizer:
+        headline: "§7» §l§9 Randomizer Battle Settings"
+        reset:
+          name: "§c§l Reset"
+          lore:
+            - ""
+            - "§7- §6Click §7to §c§lreset"
+            - "§7  the random generator"
+  language:
+    select:
+      headline: "§7» §l§9Select your language"
+      items:
+        german:
+          name: "§9§l German"
+          lore:
+            - ""
+            - "§7- §6Click §7to"
+            - "§7  select German"
+        english:
+          name: "§9§l English"
+          lore:
+            - ""
+            - "§7- §6Click §7to"
+            - "§7  select English"
